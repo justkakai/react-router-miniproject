@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-router-miniproject/static/css/main.5552a990.css",
+    "main.js": "/react-router-miniproject/static/js/main.017268b3.js",
+    "static/js/787.b3b726f6.chunk.js": "/react-router-miniproject/static/js/787.b3b726f6.chunk.js",
+    "static/media/mmta.jpg": "/react-router-miniproject/static/media/mmta.9f19cb4a896219a43806.jpg",
+    "static/media/lost.png": "/react-router-miniproject/static/media/lost.3c6a91c4798c00a329dd.png",
+    "static/media/edith-victoria-vocals.jpg": "/react-router-miniproject/static/media/edith-victoria-vocals.747c70b513683c7506b5.jpg",
+    "static/media/ada-juarez-drums.jpg": "/react-router-miniproject/static/media/ada-juarez-drums.9b5358e3e95bd5297029.jpg",
+    "static/media/tea-campbell-guitar-bass.jpg": "/react-router-miniproject/static/media/tea-campbell-guitar-bass.7515d2c8c9c9a00ab797.jpg",
+    "static/media/GlyphWorld-Meadow.otf": "/react-router-miniproject/static/media/GlyphWorld-Meadow.e5b891f30d85f15a43bd.otf",
+    "static/media/GlyphWorld-AirLand.otf": "/react-router-miniproject/static/media/GlyphWorld-AirLand.839579fa674e63dc154b.otf",
+    "static/media/GlyphWorld-Mountain.otf": "/react-router-miniproject/static/media/GlyphWorld-Mountain.db8ecde1db29f85ca10d.otf",
+    "index.html": "/react-router-miniproject/index.html",
+    "main.5552a990.css.map": "/react-router-miniproject/static/css/main.5552a990.css.map",
+    "main.017268b3.js.map": "/react-router-miniproject/static/js/main.017268b3.js.map",
+    "787.b3b726f6.chunk.js.map": "/react-router-miniproject/static/js/787.b3b726f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5552a990.css",
+    "static/js/main.017268b3.js"
+  ]
+}
