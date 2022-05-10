@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Home from './routes/Home';
 import Vocals from './routes/Vocals';
 import GuitarBass from './routes/Guitar-Bass';
@@ -18,6 +18,7 @@ function App() {
         <Route path="vocals" element={<Vocals />} />
         <Route path="guitarbass" element={<GuitarBass />} />
         <Route path="drums" element={<Drums />} />
+        <Route path="react-router-miniproject" element={<Navigate to="/" />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
