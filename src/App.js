@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Home from './routes/Home';
+import Vocals from './routes/Vocals';
+import GuitarBass from './routes/Guitar-Bass';
+import Drums from './routes/Drums';
+import NotFound from './routes/NotFound';
+import Links from './components/Links';
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Links />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="vocals" element={<Vocals />} />
+        <Route path="guitarbass" element={<GuitarBass />} />
+        <Route path="drums" element={<Drums />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </div>
   );
 }

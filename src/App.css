@@ -1,38 +1,133 @@
+@font-face {
+  font-family: "Glyphworld-Meadow";
+  src: url("./fonts/GlyphWorld/GlyphWorld-Meadow.otf");
+}
+
+@font-face {
+  font-family: "Glyphworld-Airland";
+  src: url("./fonts/GlyphWorld/GlyphWorld-AirLand.otf");
+}
+
+@font-face {
+  font-family: "Glyphworld-Mountain";
+  src: url("./fonts/GlyphWorld/GlyphWorld-Mountain.otf");
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 3rem;
+  font-family: "Glyphworld-Meadow", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2,
+h3 {
+  font-family: "Glyphworld-Airland", sans-serif;
+  font-weight: normal;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-size: 1.8rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.not-found-h2 {
+  font-size: 1.5rem;
+  margin-top: 7rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-style: italic;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.buy-tickets, .home-redirect {
+  color: white;
+  width: 36.5rem;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: none;
+}
+
+.buy-tickets {
+  font-family: "Glyphworld-Mountain", sans-serif;
+  animation: blink 0.2s linear infinite alternate-reverse;
+  font-size: 3rem;
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+.home-redirect {
+  font-family: "Glyphworld-Airland", sans-serif;
+  font-size: 1.4rem;
+  font-style: italic;
+  padding: 1.5rem;
+}
+
+.buy-tickets:hover, .home-redirect:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@keyframes blink {
+  0% {
+    color: white;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    color: #5f7eff;
   }
+}
+
+.image-container,
+.image-container-1, .image-container-5, .image-container-4 {
+  height: 30rem;
+  width: 40rem;
+  margin: 3rem auto 4rem auto;
+  border: 5px solid white;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-container-1 img {
+  object-position: top;
+}
+
+.image-container-5 {
+  height: 20rem;
+  margin-top: 2rem;
+}
+
+.image-container-4 {
+  margin-bottom: 0;
+}
+
+.instrument-links {
+  font-family: "Glyphworld-Airland", sans-serif;
+  font-size: 1.2rem;
+  margin: 0 1.5rem;
+}
+
+.instrument-links:focus {
+  color: #dbcce6;
+}
+
+.on-tour {
+  font-family: "Glyphworld-Airland", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  margin: 2rem 0 4rem 0;
 }
