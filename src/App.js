@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="vocals" element={<Vocals />} />
-        <Route path="guitarbass" element={<GuitarBass />} />
+        <Route path="guitar-and-bass" element={<GuitarBass />} />
         <Route path="drums" element={<Drums />} />
         <Route path="react-router-miniproject" element={<Navigate to="/" />} />
         <Route path="*" element={<NotFound />} />
