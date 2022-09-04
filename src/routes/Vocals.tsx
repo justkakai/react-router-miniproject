@@ -1,3 +1,4 @@
+import React from "react"
 import edith from "../images/edith-victoria-vocals.jpg"
 
 export default function Vocals() {

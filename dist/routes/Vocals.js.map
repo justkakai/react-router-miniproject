@@ -1,0 +1,1 @@
+{"version":3,"file":"Vocals.js","sourceRoot":"","sources":["../../src/routes/Vocals.tsx"],"names":[],"mappings":";;;;;AAAA,kDAAyB;AACzB,oGAAuD;AAEvD,SAAwB,MAAM;IAC1B,OAAO,CACH,uCAAK,SAAS,EAAC,SAAS;QACpB,uCAAK,SAAS,EAAC,mBAAmB;YAC9B,uCAAK,GAAG,EAAE,mCAAK,EAAE,GAAG,EAAC,uBAAuB,GAAG,CAC7C;QACN,2DAAuB;QACvB,mDAAe,CACb,CACT,CAAA;AACL,CAAC;AAVD,yBAUC"}

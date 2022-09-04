@@ -1,6 +1,7 @@
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-export default function Links() {
+function Links() {
     return (
         <div>
             <NavLink to="/"><h1>Meet Me @ the Altar</h1></NavLink>
@@ -24,3 +25,5 @@ export default function Links() {
         </div>
     )
 }
+
+export default Links;

@@ -1,3 +1,4 @@
+import React from "react"
 import group from "../images/mmta.jpg"
 
 export default function Home() {

@@ -1,3 +1,4 @@
+import React from "react"
 import ada from "../images/ada-juarez-drums.jpg"
 
 export default function Drums() {

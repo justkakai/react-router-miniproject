@@ -1,3 +1,4 @@
+import React from "react"
 import tea from "../images/tea-campbell-guitar-bass.jpg"
 
 export default function GuitarBass() {
